@@ -1,0 +1,555 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eee;
+}
+
+body i {
+    color: orange;
+}
+
+.parent {
+    background-color: #fff;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin-bottom: 30px;
+}
+
+.child1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.child1 :first-child {
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+.child1 :nth-child(2) {
+    position: relative;
+    right: 85px;
+    color: rgb(86, 86, 233);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.child1 :nth-child(3) {
+    position: relative;
+    right: 100px;
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+.child2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    margin-top: 30px;
+}
+.child2 li a {
+    color: gray;
+}
+
+.child3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 20px;
+}
+
+.child3 :first-child {
+    position: relative;
+    left: 30px;
+}
+
+.child3 :nth-child(2) {
+    position: relative;
+    right: 25px;
+}
+
+.child3 :nth-child(3) {
+    position: relative;
+    right: 70px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(../../AIT-Commerce/banner-bg.webp);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    margin:0;
+}
+
+.banner ul {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.template {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 35px;
+}
+
+.template :first-child {
+    margin-top: 25px;
+    position: relative;
+    left: 230px;
+}
+
+.template :nth-child(2) {
+    margin-top: 25px;
+    position: relative;
+    right: 85px;
+    color: orange;
+}
+
+.template :nth-child(3) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 343px;
+}
+
+.banner p {
+    margin-top: -41px;
+    margin-bottom: 14px;
+    color: gray;
+}
+
+.banner a {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.child11 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.child11 :first-child {
+    position: relative;
+    left: 660px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.child11 :last-child {
+    position: relative;
+    right: 325px;
+    margin-inline: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 5px 10px;
+    color: white;
+}
+
+.child12 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.child12 figure {
+    padding: 10px;
+    box-shadow: 5px 5px rgb(148, 145, 145);
+    background: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.child12 img {
+    padding-top: 10px;
+}
+
+.parent2 img {
+    width: 100%;
+}
+
+.child21 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+}
+
+.child21 :first-child {
+    position: relative;
+    left: 660px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.child21 :last-child {
+    position: relative;
+    right: 325px;
+    margin-inline: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 5px 10px;
+    color: white;
+}
+
+.child22 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.child22 figure {
+    padding-bottom: 10px;
+    box-shadow: 5px 5px rgb(148, 145, 145);
+    background: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.child22 img {
+    width: 50%;
+    height: 150px;
+}
+.parent3 img {
+    width: 100%;
+}
+
+.child31 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+}
+
+.child31 :first-child {
+    position: relative;
+    left: 620px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.child31 :last-child {
+    position: relative;
+    right: 305px;
+    margin-inline: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 5px 10px;
+    color: white;
+}
+
+.child32 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.child32 figure {
+    padding: 10px;
+    box-shadow: 5px 5px rgb(148, 145, 145);
+    background-color: white;
+}
+
+.child32 img {
+    padding-top: 10px;
+}
+
+.child41 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+}
+
+.child41 :first-child {
+    position: relative;
+    left: 580px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.child41 :last-child {
+    position: relative;
+    right: 325px;
+    margin-inline: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 5px 10px;
+    color: white;
+}
+
+.child42 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.child42 figure {
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(148, 145, 145);
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.child42 img {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+.child51 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+}
+
+.child51 :first-child {
+    position: relative;
+    left: 660px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.child51 :last-child {
+    position: relative;
+    right: 340px;
+    margin-inline: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 5px 10px;
+    color: white;
+}
+
+.child52 figure {
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.child52 div {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.child52 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.child52 img {
+    width: 100%;
+    height: 200px;
+}
+
+.blog1 :nth-child(3) {
+    margin-left: 120px;
+}
+
+.footer {
+    background-color: white;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer11 :first-child {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(74, 74, 240);
+}
+
+.footer11 :last-child {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(244, 127, 10);
+}
+
+.footer11 :nth-child(2) {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(74, 74, 240);
+}
+
+.footer1 ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footer1 p {
+    line-height: 20px;
+}
+
+.icons {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.icons span {
+    margin-left: 8px;
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: rgb(231, 197, 197);
+    padding: 5px;
+}
+
+.footer1 {
+    background-color: #fff;
+    margin-left: 40px;
+}
+
+.footer1 p {
+    margin-top: 30px;
+}
+
+.icons span i {
+    color: black;
+}
+
+.icons :first-child,
+:last-child {
+    padding: 5px 5px;
+}
+
+.icons :nth-child(2) {
+    padding: 5px 0px;
+}
+
+.icons :nth-child(3) {
+    padding: 5px 0px;
+}
+
+.footer12 span {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer12 ul li {
+    line-height: 40px;
+}
+
+.footer13 span {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer13 ul li {
+    line-height: 40px;
+}
+
+.footer14 span {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer14 div {
+    margin-left: 40px;
+}
+
+.footer14 form{
+  
+}
+
+img {
+    line-height: 40px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+.footer12 span {
+    color: rgb(74, 74, 240);
+    margin-top: 30px;
+}
+
+.footer13 span {
+    color: rgb(74, 74, 240);
+}
+
+.footer14 span {
+    color: rgb(74, 74, 240);
+}
+.button :hover {
+    background-color: rgb(229, 178, 83);
+}
+
+hr {
+    width: 80%;
+    margin-top: 40px;
+    ;
+}
+.end {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.end span {
+    color: orange;
+}
